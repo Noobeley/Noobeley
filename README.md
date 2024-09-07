@@ -14,3 +14,20 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFC Notification</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            alert('You scanned the NFC tag! Welcome!');
+        }
+    </script>
+</head>
+<body>
+    <h1>Hello, you've scanned the NFC tag!</h1>
+    <p>This is a message triggered by scanning the NFC tag. Welcome!</p>
+</body>
+</html>
